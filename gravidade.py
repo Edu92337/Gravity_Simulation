@@ -14,7 +14,6 @@ G = 600
 M = 400
 m = 40
 
-
 class Particula():
     def __init__(self):
         self.cores = ['blue', 'orange', 'purple', 'yellow', 'green']
@@ -150,6 +149,6 @@ while running:
 
     
         pygame.display.flip()
-        dt = clock.tick(60) / 100
+        dt = clock.tick(60) / 1000
 
 pygame.quit()
